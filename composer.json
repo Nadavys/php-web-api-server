@@ -1,0 +1,11 @@
+{
+    "require": {
+        "vlucas/phpdotenv": "^2.4",
+        "php-amqplib/php-amqplib": "^2.11",
+        "voku/simple-cache": "^4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Src\\": "src/"
+        }
+    }}
