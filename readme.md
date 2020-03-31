@@ -46,8 +46,9 @@ Job submitters are able to check the status of a job using an id that was return
 curl 'http://localhost:8000/task/5e7f09df478d0'
 ```
 
- Response
-```{"id":"5e7f09df478d0","submitter_id":"123","priority":"5","command":"Say something I'm giving up on you","status":"NEW","processor_id":null,"created":"2020-03-28 01:25:03","updated":"2020-03-28 01:25:03"}
+Response
+```
+{"id":"5e7f09df478d0","submitter_id":"123","priority":"5","command":"Say something I'm giving up on you","status":"NEW","processor_id":null,"created":"2020-03-28 01:25:03","updated":"2020-03-28 01:25:03"}
 ```
 
 GET to find the next available job with the highest priority:
